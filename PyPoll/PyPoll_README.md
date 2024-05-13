@@ -28,4 +28,6 @@ The results are also saved to a text file named `election_results.txt` in the `P
 - Python 3
 - CSV file named `election_data.csv` with the columns "Voter ID", "County", and "Candidate"
 
-
+## Code Source
+- Learning Assistant
+- GitHub location: https://github.com/jeffjunohkim/python-challenge.git
