@@ -1,8 +1,12 @@
 import os
 import csv
 
-# Use an absolute path or correct the relative path
-csv_path = r'PyBank\Resources\budget_data.csv'
+# Get the current working directory
+current_dir = os.getcwd()
+
+# Construct the relative paths
+csv_path = os.path.join(current_dir,'python-challenge', 'PyBank', 'Resources', 'budget_data.csv')
+output_path = os.path.join(current_dir,'python-challenge','PyBank', 'analysis', 'financial_analysis.txt')
 
 # Initialize variables
 total_months = 0
@@ -55,9 +59,6 @@ print(f"Total: ${net_total_amount}")
 print(f"Average Change: ${average_change:.2f}")
 print(f"Greatest Increase in Profits: {greatest_increase[0]} (${greatest_increase[1]})")
 print(f"Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})")
-
-# Define the path for the output text file
-output_path = r'PyBank\analysis\financial_analysis.txt'
 
 # Write the results to the text file
 with open(output_path, mode='w', newline='') as textfile:
