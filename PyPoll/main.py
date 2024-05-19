@@ -2,8 +2,8 @@ import os
 import csv
 
 # Construct the relative paths
-csv_path = r'python-challenge\PyPoll\Resources\election_data.csv'
-output_path = r'python-challenge\PyPoll\analysis\election_results.txt'
+csv_path = os.path.join("Resources", "election_data.csv")
+output_path = os.path.join("analysis", "election_results.txt")
 
 # Initialize variables
 total_votes = 0
