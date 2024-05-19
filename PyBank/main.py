@@ -1,12 +1,9 @@
 import os
 import csv
 
-# Get the current working directory
-current_dir = os.getcwd()
-
 # Construct the relative paths
 csv_path = r'python-challenge\PyBank\Resources\budget_data.csv'
-output_path = r'python-challenge\PyBank\analysis\financial_analysis1.txt'
+output_path = r'python-challenge\PyBank\analysis\financial_analysis.txt'
 
 # Initialize variables
 total_months = 0

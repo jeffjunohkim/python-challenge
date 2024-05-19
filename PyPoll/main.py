@@ -1,9 +1,6 @@
 import os
 import csv
 
-# Get the current working directory
-current_dir = os.getcwd()
-
 # Construct the relative paths
 csv_path = r'python-challenge\PyPoll\Resources\election_data.csv'
 output_path = r'python-challenge\PyPoll\analysis\election_results.txt'
