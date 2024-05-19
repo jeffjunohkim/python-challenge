@@ -5,8 +5,8 @@ import csv
 current_dir = os.getcwd()
 
 # Construct the relative paths
-csv_path = os.path.join(current_dir,'python-challenge', 'PyBank', 'Resources', 'budget_data.csv')
-output_path = os.path.join(current_dir,'python-challenge','PyBank', 'analysis', 'financial_analysis.txt')
+csv_path = r'python-challenge\PyBank\Resources\budget_data.csv'
+output_path = r'python-challenge\PyBank\analysis\financial_analysis1.txt'
 
 # Initialize variables
 total_months = 0

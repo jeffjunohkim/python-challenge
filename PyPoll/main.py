@@ -5,12 +5,8 @@ import csv
 current_dir = os.getcwd()
 
 # Construct the relative paths
-csv_path = os.path.join(current_dir,'python-challenge', 'PyPoll', 'Resources', 'election_data.csv')
-output_path = os.path.join(current_dir,'python-challenge', 'PyPoll', 'analysis', 'election_results.txt')
-
-# Print the constructed paths for debugging
-print(f"CSV Path: {csv_path}")
-print(f"Output Path: {output_path}")
+csv_path = r'python-challenge\PyPoll\Resources\election_data.csv'
+output_path = r'python-challenge\PyPoll\analysis\election_results.txt'
 
 # Initialize variables
 total_votes = 0
